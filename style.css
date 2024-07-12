@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playwrite+NZ:wght@100..400&family=Sacramento&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+NZ:wght@100..400&display=swap');
+
+:root {
+    --gold: goldenrod;
+    --bg: #0a0a0a;
+    --shadw: 0 2px 2px rgb(0 0 0 / 0.5);
+}
+
+body {
+    font-size: 1.2rem;
+    font-family: 'Montserrat', sans-serif;
+    min-height: 5000px;
+    background-color: #0b1a34;
+}
+
+*/ .hero {
+    position: relative;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+.hero h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 4rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: white;
+}
+
+.hero h2,h3 {
+    font-size: 1.5rem;
+}
+
+.mynavbar .navbar-brand,
+.mynavbar .offcanvas-tittle {
+    font-family: "Playwrite NZ", cursive;
+    font-size: 1.5rem;
+    color: var(--gold)
+}
+
+.mynavbar .nav-link,
+.dropdown-item {
+    text-transform: uppercase;
+    color: var(--gold) !important;
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+.dropdown-item{
+    color: #0a0a0a !important;
+}
+
+.carousel-inner img {
+    max-height: 720px;
+    object-fit: cover;
+    background-position: center;
+    filter: brightness(80%);
+}
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+.card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+.card{
+    transition: transform 0.3s ease;
+}
+.card:hover{
+    transform: scale(1.1);
+    filter: brightness(88%);
+}
+.card-body{
+    padding: 4px;
+}
+.nav-link{
+    color: white !important;
+}
+.nav-link:hover{
+    color: goldenrod !important;
+}
+.footer{
+    color: goldenrod;
+}
+.nav:hover{
+    color: white !important;
+}
